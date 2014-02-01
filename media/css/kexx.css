@@ -1,0 +1,479 @@
+body
+{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+
+}
+.wrapper
+{
+    max-width: 988px;
+    margin: 0 auto;
+}
+.header
+{
+    background: url('../img/header.jpg');
+margin-top: 15px;
+    height: 241px;
+
+}
+.top-menu-ul
+{
+    list-style: none;
+    position: relative;
+    width: 100%;
+
+
+}
+.top-menu-ul li
+{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 123px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+.top-menu-ul .wide_li
+{
+    width:163px;
+}
+
+.top-menu-ul .slim_li
+{
+    width:100px;
+}
+.nav_top_link
+{
+    text-decoration: none; !important;
+    color:black; !important;
+}
+.nav_top_link:hover
+{
+    text-decoration: none; !important;
+    color:black; !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header_ul
+{
+    list-style: none;
+    position: relative;
+    width: 100%;
+    margin-left: 0px;
+    color: white;
+}
+.header_ul li
+{
+    width:25%;
+    float: left;
+    display: block;
+}
+.header_logo
+{
+    width:50%; !important;
+}
+.header_logo_img
+{
+margin-top: 30px;
+    cursor: pointer;
+}
+.footer
+{
+    height: 160px;
+    background: url('../img/footer.jpg');
+}
+.manager_info
+{
+    font-size: 13px;
+    margin-left: 5px;
+}
+.manager_info_container
+{
+    margin-top: 50px;
+}
+.login_form_input
+{
+    opacity: 0.5;
+    width: 200px;
+}
+#login_form
+{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.header_signup_container
+{
+    margin-top:-20px;
+    margin-right: 10px;
+    text-align: right;
+}
+.signup_link
+{
+    color:white;
+    text-decoration: none;
+}
+.signup_link:hover
+{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+#slider_main
+{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.content
+{
+ margin-top: 30px;
+    height:100%
+}
+.slider_image
+{
+    position: relative;
+}
+.slider_text_span
+{
+    position: absolute;
+    top		: 385px;
+    left		: 0;
+    background-color: white;
+    opacity: 0.75;
+    margin-left: 0;
+    width: 960px;
+
+}
+.slider_text
+{
+    font-size: 16px;
+
+    word-wrap:break-word;
+    width: 940px;
+
+}
+
+.jcarousel-pagination
+{
+    list-style: none;
+}
+.slider-pagination-button
+{
+    width: 20px;
+    height: 20px;
+    background: url("../img/button-slider-no.png");
+    display: inline-block;
+}
+
+.pressed
+{
+    background: url("../img/button-slider.png");
+}
+.news_block
+{
+    width: 70%;
+
+}
+.one-news{
+/*{   border: 1px black solid;*/
+    text-align: center;
+    width: 49%;
+    float: left;
+    height:300px
+}
+.img-news
+{
+    margin-top: 60px;
+
+}
+.news_text
+{
+
+}
+.slider-pagination
+{
+    text-align: right;
+    margin-right: 20px;
+    margin-top:2px;
+    text-decoration: none;
+}
+.slider-pagination a:hover
+{
+   text-decoration: none;
+
+}
+.news-head
+{
+    text-align: center;
+    font-size: 18px;
+}
+.right-bar
+{
+ margin-right: -13px;
+}
+.left-pre-header
+{ float: left;
+    width:70%;
+}
+.right-pre-header
+{
+    float: left;
+    width:30%;
+}
+.game-navigation
+{
+    text-align: center;
+}
+.game-navigation-ul
+{
+    margin-top: 50px;
+    list-style: none;
+}
+.game-navigation-ul li
+{
+    font-size: 19px;
+    color: darkred;
+    margin-top: 20px;
+}
+.auction_block
+{
+    margin-top: 51px;
+    position: relative;
+}
+.auction-text
+{
+    text-align: center;
+    position: absolute;
+     right:11%;
+    color: darkred;
+    font-size: 20px;
+    margin-top:30px;
+    width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.timer_footer
+{
+    background-color: rgb(234,131,57);
+    height: 18px;
+}
+
+.timer
+{
+    height: 310px;
+}
+.fl
+{
+    float:left;
+}
+
+
+.photo_timer
+{
+    height:310px;
+    width: 40%;
+    text-align: center;
+}
+.text_timer
+{
+    height:310px;
+    width: 60%;
+
+}
+.clear
+{
+    clear: both;
+}
+.description_block
+{
+     height: 140px;
+    text-align: right;
+}
+.timer_bottom_text
+{
+   margin-top: 0px;
+}
+.timer_timer
+{
+    margin-left: 31px;
+    margin-top: 21px;
+    color: rgb(234,131,57);
+    font-size: 30px;
+}
+.price_text
+{
+    display: block;
+    color: rgb(234,131,57);
+    margin-right: 100px;
+    margin-top: 19px;
+    font-size: 24px;
+}
+.footer_nav_block
+{
+    background-color: rgb(234,131,57);
+    height: 60px;
+    text-align: justify;
+}
+.order_button_div
+{
+    height: 280px;
+    text-align: center;
+}
+.order_button
+{
+    margin-top: 130px;
+}
+.contact_info
+{
+    color: rgb(234,131,57);
+    text-align: right;
+}
+
+.footer_nav_ul
+{
+    display: table; position: relative;
+    width: 100%; height: 50px;
+}
+.footer_nav_ul a
+{
+    display: table-cell;
+    text-align: center; vertical-align: middle;
+    width: 25%;
+    height: 60px;
+    border: 1px inset #ffffff;
+    text-decoration: none;
+
+
+}
+.footer_nav_ul a:hover
+{
+    background-color: rgb(234,143,57);
+    font-size: 15px;
+}
+.footer_nav_ul a:link
+{
+    color:#ffffff;
+}
+.footer_nav_ul a:visited
+{
+    color:#ffffff;
+}
+.footer_nav_ul a:active
+{
+    color:#ffffff;
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+    width: 987px;
+}
+
+.title-description
+{
+    text-align: center;
+}
+.text-description
+{
+    text-align: center;
+}
+.description-block
+{
+    height: 300px;
+}
+
+
+
+/* modals */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#modal {
+    position:absolute;
+    background:url(tint20.png) 0 0 repeat;
+    background:rgba(0,0,0,0.2);
+    border-radius:14px;
+    padding:8px;
+}
+
+#content-modal {
+    border-radius:8px;
+    background:#fff;
+    padding:20px;
+}
+#close {
+    position:absolute;
+    background:url(../img/stop.png) 0 0 no-repeat;
+    width:24px;
+    height:27px;
+    display:block;
+    text-indent:-9999px;
+    top:-7px;
+    right:-7px;
+}
+
+#slider2 { height: 280px; overflow:hidden; }
+#slider2 .viewport { float: left; width: 900px; height: 205px; overflow: hidden; position: relative; margin-left: 7px }
+#slider2 .buttons { display: block; margin: 30px 10px 0 0; float: left; }
+#slider2 .next { margin: 30px 0 0 10px;  }
+#slider2 .disable { visibility: hidden; }
+#slider2 .overview { list-style: none; padding: 0; margin: 0;  position: absolute; left: 0; top: 0; }
+#slider2 .overview li{ float: left; margin: 0 20px 0 0; padding: 1px; height: 200px; border: 1px solid #dcdcdc; width: 277px;}
+
+#slider2 .pager { overflow:hidden; list-style: none; clear: both; margin: 0 0 0 45px; }
+#slider2 .pager li { float: left; }
+#slider2 .pagenum { background-color: #fff; text-decoration: none; text-align: center; padding: 5px; color: #555555; font-size: 14px; font-weight: bold; display: block; }
+#slider2 .active { color: #fff; background-color:  #555555; }
+
